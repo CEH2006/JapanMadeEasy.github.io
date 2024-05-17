@@ -1,0 +1,29 @@
+body{
+    background-color: #f8eaee;
+ }
+ 
+ .intro {
+     padding: 25px;
+ }
+ 
+ .i-imagine{
+     float: left;
+     width: 50%;
+ }
+ 
+ .i-text{
+     float: right;
+     width: 50%;
+ }
+
+ .header{
+    display:flex;
+}
+
+.title {
+    text-align: center;
+}
+
+.titl {
+    text-align: center;
+}
