@@ -16,14 +16,18 @@ body{
      width: 50%;
  }
 
- .header{
+ .antet{
     display:flex;
+    width:100%;
 }
 
-.title {
-    text-align: center;
+.logo{
+    float:left;
+    width:30%;
 }
 
-.titl {
+.Nume {
     text-align: center;
+    width:30%;
 }
+
