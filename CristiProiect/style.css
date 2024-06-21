@@ -1,0 +1,184 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url("");
+}
+
+/* zona  de antet */
+.antet{
+  display:flex;
+  width:100%;
+  background-color: rgb(242, 217, 230);
+}
+
+.logo{
+  float:left;
+  width:6%;
+  padding: 15px;
+}
+
+.Nume {
+  padding-left: 21%;
+  text-align: center;
+  width:54%;
+  font-size: large;
+}
+
+.meniu{
+  float:right;
+  width:40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn{
+  text-decoration: none;
+  border: 3px solid rgb(194, 131, 167);
+  border-radius: 10px;
+  padding: 5px 8px 5px 8px;
+  color: black;
+  font-size: large;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: rgb(0, 0, 12);
+  background-image: linear-gradient(to bottom right, rgb(194, 131, 167), rgb(235, 164, 222));
+}
+
+/* zona de continut*/
+
+.intro {
+  padding:7px 0px 7px 0px;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.i-imagine{
+   padding: 5px;
+   width: 35%;
+   margin-left: 100px;
+}
+
+.i-text{
+  width: 30%;
+  text-align: center;
+  font-size: larger;
+  padding:5px;
+}
+
+.i2-imagine{
+  padding: 5px;
+  width: 35%;
+}
+
+.Housing{
+  text-align: center;
+  width:100%;
+  background-color: rgb(242, 217, 230);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.intro2{
+  display: flex;
+  text-align: center;
+}
+
+.text2{
+  width: 35%;
+  text-align: justify;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: large;
+  border: 12px solid rgb(235, 186, 202);
+  border-radius: 30px;;
+  padding: 2px 15px 2px 15px;
+}
+
+.complex{
+  width:65%;
+  display: block;
+}
+
+.titlu{
+  width:100%;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.elemente{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+/*pagini*/
+
+.Restaurants{
+  text-align: center;
+  width:100%;
+  background-color: rgb(242, 217, 230);
+  padding-top: 3px;
+  padding-bottom: 3px;  
+}
+
+.Attractions{
+    text-align: center;
+    width:100%;
+    background-color: rgb(242, 217, 230);
+    padding-top: 3px;
+    padding-bottom: 3px;  
+}
+
+.Luxurious{
+  text-align: center;
+  width:100%;
+  background-color: rgb(242, 217, 230);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.see{
+  border: 8px solid rgb(235, 186, 202);
+  border-radius: 20px;
+  padding: 5px 8px 5px 8px;
+}
+
+/*.img_pg{
+  margin-left: 65px;
+  margin-top: 25px;
+  width: 30%;
+  
+}
+
+.text_pg{
+  width:40%;
+}*/
+
+/*.complexA{
+  width: 100px;
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.info{
+  display: flex;
+  /*text-align: justify;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: large;
+  padding: 2px 15px 2px 15px;
+}*/
